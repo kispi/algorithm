@@ -2,6 +2,8 @@ package main
 
 import (
 	"fmt"
+
+	"./golang"
 )
 
 func main() {
@@ -9,6 +11,6 @@ func main() {
 }
 
 func test() {
-	jakadIndex := Jakad("pneumonoconiosis", "pneumonoultramicroscopicsilicovolcanoconiosis", true)
+	jakadIndex := golang.Jakad("pneumonoconiosis", "pneumonoultramicroscopicsilicovolcanoconiosis", true)
 	fmt.Println("Jakad index: ", jakadIndex)
 }
